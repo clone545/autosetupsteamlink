@@ -4,7 +4,7 @@
 sudo apt-get update && sudo apt-get install steamlink -y 
 
 #Set Steamlink to autostart
-echo -n "Steamlink" >> ~/.config/lxsession/LXDE-pi/autostart
+echo -n "Steamlink" >> ~/.config/lxsession/LXDE-${USER}/autostart
 
 #Install and set up the fan shim
 git clone https://github.com/pimoroni/fanshim-python ~
